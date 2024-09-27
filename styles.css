@@ -6,7 +6,9 @@
     background-image: url(fundo2.png);
     padding-bottom: 200px;
 }
-.Capa{margin: 0 170px   }
+picture{
+    margin: 0 170px;
+}
 
 h1{margin: 20px 170px 20px;font-size: 30px;}
 hr{margin: 20px 170px 20px;}
@@ -18,7 +20,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header-container{
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,17 +28,17 @@ p{
     margin: 0 170px;
 }
 
-.header a{
+nav a{
     text-decoration: none;
     margin: 0 10px;
     color: #330085;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header a:hover{
+nav a:hover{
     color: rgb(255, 0, 0);}
 
-.footer{
+footer{
     text-align: center;
     padding-top: 10px;
 }
