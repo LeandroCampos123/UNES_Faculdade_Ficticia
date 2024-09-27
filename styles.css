@@ -1,6 +1,7 @@
 .pagina01{
     background-image: url(fundo.png);  
     padding-bottom: 200px;
+    overflow-x: hidden;
 }
 .pagina2_3{
     background-image: url(fundo2.png);
